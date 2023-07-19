@@ -1,0 +1,122 @@
+.afterheader{
+    display: flex;
+}
+.Bookmarks{
+    cursor: pointer;
+    border-radius: 20px;
+background: #FF7373;
+position: absolute;
+left: 750px;
+width: 136px;
+height: 45px;
+flex-shrink: 0;
+border: none;
+margin-top: 30px;
+}
+.addstory{
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+    position: absolute;
+left: 900px;
+    border-radius: 20px;
+background: #FF7373;
+    width: 136px;
+    height: 45px;
+    flex-shrink: 0;}
+    .profile{
+        cursor: pointer;
+        position: absolute;
+        left: 1220px;
+        width: 50px;
+        margin-top: 30px;
+height: 50px;
+flex-shrink: 0;
+filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.05));
+border-radius: 40px;
+    }
+    .logout{
+        cursor: pointer;
+        margin-top: 30px;
+        border: none;
+        position: absolute;
+    left: 1060px;
+        border-radius: 20px;
+    background: #FF7373;
+        width: 136px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    /* .mobile_navbar{
+        display: none;
+        .close-outline{
+            display: none;
+        }
+    }
+    .mobile_navbar[name='close-outline']{
+        display: none;
+    }
+   
+    li{
+      list-style: none;
+    } */
+
+    @media  only screen and (max-width:600px){
+       /* .afterheader{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+        transform: translate(100%);
+       }
+    .mobile_navbar{
+        display: inline-block;
+    }
+    .mobile-nav-icon{
+        font-size: 4.2rem;
+    margin-left: 250px;
+    }
+    .active .mobile-nav-icon{
+        display: none;
+        font-size: 4.2rem;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        z-index: 9999;
+    }
+    .active .close-outline{
+        display: inline-block;
+    }
+    .active .afterheader{
+        visibility: visible;
+        opacity: 1;
+        transform: translate(0);
+        z-index: 999;
+    } */
+.Bookmarks{
+/* position: relative; */
+left: 100px;
+}
+.profile{
+ /* position: relative; */
+    left: 800px;
+    width: 50px;   
+}
+.addstory{
+    /* position:relative; */
+left: 500px; 
+    }
+    .logout{
+        left: 650px;
+    }
+    .Bookmarks{
+        left: 300px;
+    }
+    }

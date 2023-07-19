@@ -1,0 +1,68 @@
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.90);;
+}
+.modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 30rem;
+}
+.Register_btn{
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+background: #73ABFF;
+}
+.closevector{
+    position: absolute;
+    left: 200px;
+}
+.closevector2{
+    position: absolute;
+    left: 350px;
+    top: 20px;
+}
+.login_box{
+
+    width: 424px;
+height: 400px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(255, 255, 255, 0.25);
+}.login_email{
+    margin: 10px;
+    width: 245px;
+    height: 35px;
+    flex-shrink: 0;
+}
+.login_password{
+  margin: 10px;
+    width: 245px;
+    height: 35px;
+    flex-shrink: 0;
+  
+}
+.login_btn{
+    position: absolute;
+    left: 100px;
+    top: 330px;
+    width: 129px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #73ABFF;
+}
+.login_heading{
+  margin: 25px;
+}
+label{
+    margin: 10px;
+}

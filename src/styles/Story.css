@@ -1,0 +1,48 @@
+.story_body{
+display: flex;
+}
+.story_contianer{
+    width: 250px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 36px;
+margin: 40px;
+/* background: rgba(0, 0, 0, 0.60); */
+
+}
+.story_contianer img{
+    width: 250px;
+    height: 220px;
+    border-radius: 36px;
+
+}
+/* .story_contianer:hover{
+    border: 5px solid #00ACD2;
+} */
+.heading_homepage{
+    color: #000;
+margin-left: 500px;
+font-family: DM Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+@media  only screen and (max-width:600px){
+   
+    .story_body{
+flex-direction: column;
+        }
+        .story_contianer{
+            width: 450px;
+            height: 420px;
+          margin-top: 70px;         
+    margin-left: 50px;   
+    margin: 40px;   
+        }
+        .story_contianer img{
+            width: 450px;
+            height: 420px;  
+            margin: 40px;     
+        }
+}
